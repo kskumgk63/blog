@@ -9,6 +9,8 @@ showDate: false
 
 I am Keisuke Umegaki, Backend Engineer.
 
+Contact [`me`](/en/page/contact-me/).
+
 # Skills
 
 ### languages
