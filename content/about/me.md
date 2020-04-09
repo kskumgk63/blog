@@ -11,6 +11,7 @@ I am Keisuke Umegaki, Backend Engineer.
 
 |SNS|URL|
 |-|-|
+|LinkedIn|https://www.linkedin.com/in/keisuke-umegaki-905a3818b/|
 |Twitter|https://twitter.com/63_plume|
 |Github|https://github.com/kskumgk63|
 
