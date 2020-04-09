@@ -1,19 +1,13 @@
 ---
-title: "Keisuke Umegaki | 梅垣圭佑"
-draft: false
-# categories: [""]
-categories: ["me"]
+title: "about me"
+date: 2020-04-09T23:10:45+09:00
+excludeFromTopNav: false
+showDate: false
 ---
 
 # About me
 
 I am Keisuke Umegaki, Backend Engineer.
-
-|SNS|URL|
-|-|-|
-|LinkedIn|https://www.linkedin.com/in/keisuke-umegaki-905a3818b/|
-|Twitter|https://twitter.com/63_plume|
-|Github|https://github.com/kskumgk63|
 
 # Skills
 
