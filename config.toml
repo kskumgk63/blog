@@ -59,7 +59,7 @@ disqusShortname = "bilberry-hugo-theme"
     gravatarEMail = ""
 
     # set an path to the image file you want to use | overwrites gravatar
-    customImage = "./images/ume.jpg"
+    customImage = "https://avatars3.githubusercontent.com/u/41987730?s=460&u=ee06ca067470b401d1df5457a63dd4d5d86209a0&v=4"
 
     # define the icon you want to use for the overlay for the customImage or gravatar.
     overlayIcon = "fa-home"
