@@ -7,5 +7,15 @@ categories: []
 tags: []
 
 # Set your external url
-link: "https://github.com/kskumgk63/"
+link: ""
 ---
+
+**この記事からわかること**
+
+<!-- **what you will learn from this article** -->
+
+- 
+
+<!-- ```md
+# 
+``` -->
