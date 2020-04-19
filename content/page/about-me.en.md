@@ -21,11 +21,15 @@ Japanese | English(Business)
 
 ### Frameworks
 
-React.js | Terraform
+React.js
+
+### Middleware
+
+Terraform | GraphQL | Docker
 
 ### XaaS
 
-AWS | GCP | Docker | Kubenetes | Circle CI | Github Actions
+AWS | GCP | Kubenetes | Circle CI | Github Actions
 
 ### Tools
 
