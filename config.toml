@@ -1,4 +1,4 @@
-title = "ume blog"
+title = "plum-u.me"
 baseURL = "https://plum-u.me/"
 theme = "bilberry-hugo-theme"
 
@@ -131,11 +131,11 @@ disqusShortname = "bilberry-hugo-theme"
 [Languages]
   [Languages.ja]
     weight = 1
-    title = "うめブログ"
+    title = "plum-u.me"
     subtitle = "こんにちは、世界！"
   [Languages.en]
     weight = 2
-    title = "keisuke blog"
+    title = "plum-u.me"
     subtitle = "Hello world!"
 
 # don't change anything below
