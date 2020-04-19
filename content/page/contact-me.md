@@ -7,6 +7,5 @@ showDate: false
 
 |サービス名|プロフィールリンク|
 |-|-|
-|GMail|keisuke.umegaki.630@gmail.com|
 |LinkedIn|https://www.linkedin.com/in/keisuke-umegaki-905a3818b/|
 |twitter|https://twitter.com/63_plume/|
