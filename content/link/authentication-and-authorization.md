@@ -3,7 +3,7 @@ title: "よくわかる認証と認可 by developer.io"
 date: 2020-04-10T08:02:31+09:00
 draft: false
 
-categories: ["web security"]
+categories: ["web"]
 tag: ["authentication", "authorization"]
 
 # Set your external url

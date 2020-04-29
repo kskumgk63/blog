@@ -3,7 +3,7 @@ title: "IDトークンが分かればOpenID Connectが分かる by Qiita"
 date: 2020-04-10T08:11:34+09:00
 draft: false
 
-categories: ["web security"]
+categories: ["web"]
 tags: ["OpenID Connect"]
 
 # Set your external url
