@@ -8,4 +8,4 @@ showDate: false
 |service|content|
 |-|-|
 |LinkedIn|https://www.linkedin.com/in/keisuke-umegaki-905a3818b/|
-|twitter|https://twitter.com/63_plume/|
+|twitter|https://twitter.com/kskumgk63/|

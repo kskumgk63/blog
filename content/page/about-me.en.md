@@ -15,17 +15,17 @@ Contact [`me`](/en/page/contact-me/).
 
 ### languages
 
-Golang | Rust | JavaScript | TypeScript
+Golang | Rust | JavaScript | TypeScript | Terraform 
 
 Japanese | English(Business)
 
-### Frameworks
+### Frameworks, Libraries
 
 React.js
 
 ### Middleware
 
-Terraform | GraphQL | Docker
+GraphQL | Docker
 
 ### XaaS
 
