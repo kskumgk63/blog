@@ -3,7 +3,7 @@ title: "データ指向アプリケーションデザインをまとめた"
 date: 2020-04-12T21:44:11+09:00
 draft: true
 
-categories: ["design"]
+categories: ["application design"]
 author: "Keisuke Umegaki"
 ---
 
