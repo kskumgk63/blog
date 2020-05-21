@@ -3,7 +3,7 @@ title: "テスト駆動開発を学ぶ"
 date: 2020-04-30T20:33:56+09:00
 draft: true
 
-categories: ["development"]
+categories: ["book", "development"]
 tags: ["TDD"]
 author: "Keisuke Umegaki"
 ---

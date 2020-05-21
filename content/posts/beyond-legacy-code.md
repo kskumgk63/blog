@@ -3,8 +3,7 @@ title: "「レガシーコードからの脱却」を読んでまとめました
 date: 2020-04-20T07:48:39+09:00
 draft: false
 
-categories: ["book"]
-tags: ["object oriented"]
+categories: ["book", "development"]
 author: "Keisuke Umegaki"
 ---
 
