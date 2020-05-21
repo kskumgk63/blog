@@ -42,7 +42,7 @@ func removeElement(nums []int, val int) int {
 	numbers := make([]int, 0, len(nums))
 	for index := 0; index < len(nums); index++ {
 		if nums[index] != val {
-			numbers = append(nmubers, nums[index])
+			numbers = append(numbers, nums[index])
 		}
 	}
 	return len(n)
