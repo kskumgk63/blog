@@ -1,5 +1,5 @@
 ---
-title: "[Golang] 1行加えるだけで interface を実装するテクニック"
+title: "[Golang] 1行加えるだけで interface の実装を強制するテクニック"
 date: 2020-04-09T20:33:43+09:00
 draft: false
 categories: ["programming language"]
