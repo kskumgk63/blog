@@ -2,6 +2,8 @@
 title: "［実装不要で超手軽］gRPCサーバーの動作確認ができるGUI BloomRPC の紹介"
 date: 2020-06-13T18:17:26+09:00
 draft: false
+categories: ["development"]
+author: "Keisuke Umegaki"
 ---
 
 # はじめに

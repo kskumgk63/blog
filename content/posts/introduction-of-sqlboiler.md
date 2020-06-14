@@ -1,7 +1,10 @@
 ---
 title: "［超便利］Go ORMライブラリのSQL Boilerを使った感想"
 date: 2020-06-14T16:13:50+09:00
-draft: true
+draft: false
+categories: ["programming language"]
+tag: ["golang"]
+author: "Keisuke Umegaki"
 ---
 
 # はじめに
