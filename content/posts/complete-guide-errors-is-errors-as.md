@@ -346,7 +346,7 @@ https://play.golang.org/p/2RHK2k7ZBJk
 
 ### `Wrap`したエラーとの比較に使えます
 
-`As()`は値の差異は関係ないので、型があっていると`true`を返します。
+`As()`は値の差異は関係ないので、型が合致していると`true`を返します。
 なので、エラーが持っているメッセージは関係なく、型レベルで同じか確かめたいときに有効です！
 
 ```go
@@ -371,6 +371,82 @@ func main() {
 }
 ```
 https://play.golang.org/p/9Sdw-th7znr
+
+### `As()`の第1引数に第2引数の値と型が入ります
+
+第1引数の型と値がポインタで渡した第2引数に代入されます。
+
+注意点は、`As()`の結果が`true`か`false`かで挙動が変わるということです。
+
+**`As()`の結果が`true`**
+
+エラーがWrapされていても、Wrapされる前の純粋なエラーの型と値が第2引数にそのまま代入されます。
+
+```go
+type ErrorCode uint
+
+const (
+	Zero ErrorCode = iota
+	One
+)
+
+func (code ErrorCode) Error() string {
+	return [...]string{
+		"Error: Zero",
+		"Error: One",
+	}[code]
+}
+
+func main() {
+	wrappedError := fmt.Errorf("wrap: %w", One)
+	var code ErrorCode
+	fmt.Printf("before As() code: type %T, value %+v\n", code, code)
+	errors.As(wrappedError, &code)
+	fmt.Printf("after As() code: type %T, value %+v\n", code, code)
+}
+```
+
+出力結果を見ると、値が`As()`の後で変わっていること、Wrapされていることは無視されていることがわかります。
+
+```txt
+before As() code: type main.ErrorCode, value Error: Zero
+after As() code: type main.ErrorCode, value Error: One
+```
+https://play.golang.org/p/1opLn8rnq4v
+
+**`As()`の結果が`false`**
+
+第1引数の型と値がそのまま第2引数に代入されます。
+エラーがWrapされていたらWrapされた後の型と値がそのまま第2引数に代入されます。
+
+```go
+type ErrorCode uint
+
+const (
+	Zero ErrorCode = iota
+	One
+)
+
+func (code ErrorCode) Error() string {
+	return [...]string{
+		"Error: Zero",
+		"Error: One",
+	}[code]
+}
+
+func main() {
+	wrappedError := fmt.Errorf("wrap: %w", One)
+	var code error
+	errors.As(wrappedError, &code)
+	fmt.Printf("code: type %T, value %+v\n", code, code)
+}
+```
+
+出力結果を見ると、型と値がWrapされた後のものになっていることがわかります。
+
+```txt
+code: type *fmt.wrapError, value wrap: Error: One
+```
 
 # さいごに
 
